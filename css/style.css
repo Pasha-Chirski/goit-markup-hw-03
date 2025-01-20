@@ -34,14 +34,9 @@ button {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-}
-.container-1 {
   display: flex;
-  width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
 }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
