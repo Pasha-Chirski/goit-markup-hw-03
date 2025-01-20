@@ -46,8 +46,8 @@ button {
   overflow: hidden;
 }
 .header {
-  padding-top: 18px;
-  padding-bottom: 30px;
+  border-bottom: 1px solid #e7e9fc;
+  display: flex;
 }
 .header-logo {
   font-weight: 700;
@@ -57,8 +57,12 @@ button {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
+  margin-right: 76px;
 }
-
+.header-navigator {
+  display: flex;
+  align-items: center;
+}
 .header-logo-italic {
   font-weight: 700;
   font-size: 18px;
@@ -79,7 +83,13 @@ button {
 .header-menu-link:focus {
   color: #404bbf;
 }
-
+.header-menu-list {
+  display: flex;
+  gap: 40px;
+  margin-right: 40px;
+  margin-right: 0;
+  padding-bottom: 24px;
+}
 .address {
   font-style: normal;
 }
