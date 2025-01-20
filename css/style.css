@@ -178,6 +178,9 @@ button {
   display: flex;
   gap: 24px;
 }
+.section-item {
+  width: calc((100% - 72px) / 4);
+}
 .contacts {
   background-color: #f4f4fd;
 }
