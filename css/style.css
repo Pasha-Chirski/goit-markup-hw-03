@@ -154,7 +154,7 @@ button {
   background-color: #404bbf;
   color: #ffffff;
 }
-.visually-hidden {
+.section {
   padding: 120px 0;
 }
 .section-subtitle {
@@ -163,7 +163,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding: 120px 0;
+
   margin-bottom: 8px;
 }
 .section-item-text {
@@ -172,7 +172,9 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  flex-basis: calc((100% - 3 * 24px) / 4);
+}
+.section-item {
+  width: calc((100% - 72px) / 4);
 }
 .section-text-list {
   display: flex;
