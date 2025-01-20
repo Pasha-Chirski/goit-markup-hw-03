@@ -40,11 +40,8 @@ button {
 }
 .container {
   width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .header {
@@ -171,14 +168,14 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  gap: 24px;
 }
 
 .section-text-list {
   display: flex;
+  gap: 24px;
 }
 .section-item {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .contacts {
   background-color: #f4f4fd;
