@@ -243,6 +243,12 @@ button {
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
+/*section 4*/
+.portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .portfolio-titli {
   font-weight: 700;
   font-size: 36px;
@@ -251,6 +257,16 @@ button {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
+}
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.portfolio-item {
+  width: calc((100% - 24px * 2) / 3);
 }
 .portfolio-subtitle {
   font-weight: 500;
@@ -268,7 +284,7 @@ button {
 }
 .footer {
   background-color: #2e2f42;
-  padding: 100px;
+  padding: 100px 0;
 }
 
 .footer-item-text {
@@ -289,4 +305,10 @@ button {
 .header-logo {
   display: inline-block;
   margin-bottom: 16px;
+}
+.container-portfolio {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  text-align: center;
+  border-top: none;
 }
