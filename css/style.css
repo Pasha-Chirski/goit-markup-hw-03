@@ -32,6 +32,13 @@ button {
   padding-right: 15px;
   margin: 0 auto;
 }
+.container-1 {
+  display: flex;
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -47,7 +54,6 @@ button {
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
-  display: flex;
 }
 .header-logo {
   font-weight: 700;
@@ -86,12 +92,13 @@ button {
 .header-menu-list {
   display: flex;
   gap: 40px;
-  margin-right: 40px;
-  margin-right: 0;
-  padding-bottom: 24px;
 }
 .address {
   font-style: normal;
+}
+.address-menu-list {
+  display: flex;
+  gap: 40px;
 }
 .address-menu-link {
   font-weight: 400;
