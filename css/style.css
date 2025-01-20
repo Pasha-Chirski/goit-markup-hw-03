@@ -163,8 +163,8 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-
   margin-bottom: 8px;
+  width: calc((100% - 72px) / 4);
 }
 .section-item-text {
   font-weight: 400;
@@ -173,9 +173,7 @@ button {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.section-item {
-  width: calc((100% - 72px) / 4);
-}
+
 .section-text-list {
   display: flex;
   gap: 24px;
