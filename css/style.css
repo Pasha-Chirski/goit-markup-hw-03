@@ -3,6 +3,9 @@ body {
   background-color: #ffffff;
   color: #434455;
 }
+img {
+  display: block;
+}
 p,
 h1,
 h2,
