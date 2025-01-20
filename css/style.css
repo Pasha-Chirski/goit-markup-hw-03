@@ -128,6 +128,7 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px;
 }
 .studio-btn {
   background-color: #404bbf;
@@ -139,6 +140,10 @@ button {
   font-family: "Roboto", sans-serif;
   cursor: pointer;
   background-color: #4d5ae5;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border-radius: 4px;
 }
 .studio-btn:hover {
   background-color: #404bbf;
