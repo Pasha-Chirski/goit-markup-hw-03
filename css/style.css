@@ -144,6 +144,7 @@ button {
   min-width: 169px;
   height: 56px;
   border-radius: 4px;
+  border: none;
 }
 .studio-btn:hover {
   background-color: #404bbf;
@@ -160,6 +161,8 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 120px 0;
+  margin-bottom: 8px;
 }
 .section-item-text {
   font-weight: 400;
@@ -167,6 +170,11 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  width: calc((100% - 72px) / 4);
+}
+.section-text-list {
+  display: flex;
+  gap: 24px;
 }
 .contacts {
   background-color: #f4f4fd;
