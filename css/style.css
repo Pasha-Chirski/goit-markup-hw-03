@@ -154,7 +154,9 @@ button {
   background-color: #404bbf;
   color: #ffffff;
 }
-
+.visually-hidden {
+  padding: 120px 0;
+}
 .section-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -170,7 +172,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .section-text-list {
   display: flex;
