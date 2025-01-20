@@ -6,6 +6,7 @@ body {
 img {
   display: block;
 }
+
 p,
 h1,
 h2,
@@ -20,11 +21,6 @@ a {
 }
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-address {
-  font-style: normal;
 }
 button {
   cursor: pointer;
@@ -36,7 +32,6 @@ button {
   margin: 0 auto;
   display: flex;
 }
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -52,6 +47,15 @@ button {
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
+  display: flex;
+}
+.header-navigator {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.header-menu-list {
+  display: flex;
 }
 .header-logo {
   font-weight: 700;
@@ -63,10 +67,7 @@ button {
   text-transform: uppercase;
   margin-right: 76px;
 }
-.header-navigator {
-  display: flex;
-  align-items: center;
-}
+
 .header-logo-italic {
   font-weight: 700;
   font-size: 18px;
@@ -87,16 +88,9 @@ button {
 .header-menu-link:focus {
   color: #404bbf;
 }
-.header-menu-list {
-  display: flex;
-  gap: 40px;
-}
+
 .address {
   font-style: normal;
-}
-.address-menu-list {
-  display: flex;
-  gap: 40px;
 }
 .address-menu-link {
   font-weight: 400;
@@ -111,9 +105,15 @@ button {
 .address-menu-link:focus {
   color: #404bbf;
 }
+.address-menu-list {
+  display: flex;
+  margin-right: auto;
+  gap: 40px;
+  margin-right: auto;
+}
 .studio {
   background-color: #2e2f42;
-  margin-bottom: 120px;
+  padding: 188px 0;
 }
 .studio-title {
   font-weight: 700;
@@ -122,7 +122,6 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  margin-bottom: 48px;
 }
 .studio-btn {
   background-color: #404bbf;
@@ -143,9 +142,7 @@ button {
   background-color: #404bbf;
   color: #ffffff;
 }
-.studio-wrapper {
-  padding: 380px 40px 40px 40px;
-}
+
 .section-subtitle {
   font-weight: 500;
   font-size: 20px;
