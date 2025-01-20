@@ -39,7 +39,7 @@ button {
   overflow: hidden;
 }
 .container {
-  max-width: 1158px;
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -50,6 +50,7 @@ button {
 .header {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-navigator {
   display: flex;
@@ -114,10 +115,6 @@ button {
   display: flex;
   gap: 40px;
   padding: 24px 0;
-}
-.address-menu-link:hover,
-.address-menu-link:focus {
-  color: #404bbf;
 }
 
 .studio {
