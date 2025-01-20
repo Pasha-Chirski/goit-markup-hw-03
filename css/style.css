@@ -223,6 +223,7 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .contatcts-item-text {
   font-size: 16px;
@@ -267,6 +268,7 @@ button {
 }
 .footer {
   background-color: #2e2f42;
+  padding: 100px;
 }
 
 .footer-item-text {
@@ -283,4 +285,8 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #f4f4fd;
+}
+.header-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
