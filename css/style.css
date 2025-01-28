@@ -55,7 +55,6 @@ button {
 .header-menu-list {
   display: flex;
   gap: 40px;
-  margin-left: 76px;
 }
 .logo {
   font-family: "Raleway", sans-serif;
